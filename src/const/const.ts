@@ -1,6 +1,4 @@
-// add function
 export const add = (numbers: string): number | undefined => {
-    // check argument is null or not 
     if (!numbers) {
         if (!numbers) {
             return 0;
