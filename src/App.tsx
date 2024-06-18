@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { add } from './const/const';
+import { Add } from './const/const';
 
 const App: React.FC = () => {
   const [input, setInput] = useState<string>('');
@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
   const handleCalculate = () => {
     try {
-      const sum: number | undefined = add(input);
+      const sum: number | undefined = Add(input);
       setResult(sum);
       setError(null);
     } catch (e) {
